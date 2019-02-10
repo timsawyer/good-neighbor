@@ -1,0 +1,7 @@
+<h1>Hey, Good Neighbor</h1>
+<input
+  [(ngModel)]="searchFilter"
+  placeholder="What can I help you find?"
+  (keyup)="onKeyUp($event)"
+/>
+<a [routerLink]="['/search']">I'll just browse</a>

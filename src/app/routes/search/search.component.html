@@ -1,0 +1,34 @@
+<header>
+  <h1>Good Neighbor</h1>
+</header>
+
+<nav>
+  <h2>Tools</h2>
+  <a>Drills</a>
+  <a>Hand Tools</a>
+  <a>Power & Hand Tools</a>
+  <a>Welding & Soldering</a>
+  <a>Electrical</a>
+  <a>Plumbing</a>
+  <a>Painting</a>
+  <a>Construction</a>
+
+  <h2>Sporting Goods</h2>
+  <a>Skiing & Snowboarding</a>
+  <a>Water sports</a>
+  <a>Baseball & Softball</a>
+
+  <h2>Camera Equipment</h2>
+  <a>Lens</a>
+  <a>Frames</a>
+  <a>Lighting</a>
+</nav>
+
+<section class="results">
+  <mat-card *ngFor="let result of searchResults" class="results-card">
+    <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" />
+    <mat-card-content>
+      <h2>Some drill</h2>
+    </mat-card-content>
+  </mat-card>
+</section>
